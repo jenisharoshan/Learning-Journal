@@ -1,0 +1,26 @@
+DAY-1:
+
+relu - The rectified linear activation function overcomes the vanishing gradient problem, allowing models to learn
+faster and perform better.
+Loss function —This measures how accurate the model is during training. You want to minimize this function to "steer"
+the model in the right direction.
+EPOCH=number of epochs is a hyperparameter that defines the number times that the learning algorithm will work through
+the entire training dataset
+The expand_dims() function is used to expand the shape of an array. Insert a new axis that will appear at the axis
+position in the expanded array shape.
+
+------------------------------------------------------------------------------------------------------------------------
+
+DAY-2
+
+$ Basic Text Classification
+  - studies the subjective information in an expression, that is, the opinions, appraisals, emotions, or attitudes towards a topic, person or entity. Expressions can be classified as positive, negative, or neutral.
+  -The OS module in Python provides functions for interacting with the operating system.
+  -The shutil in Python is a module that offers several functions to deal with operations on files and their collections
+  -use the Large Movie Review Dataset that contains the text of 50,000 movie reviews from the Internet Movie Database. 
+  -.cache() keeps data in memory after it's loaded off disk.
+  -.prefetch() overlaps data preprocessing and model execution while training.
+  -A legend is an area describing the elements of the graph.
+
+$ FastAI basics 
+  - History of Machine Learning 
