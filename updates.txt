@@ -24,3 +24,25 @@ $ Basic Text Classification
 
 $ FastAI basics 
   - History of Machine Learning 
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+DAY-3
+
+$Text classification with TensorFlow Hub: Movie reviews
+  -binary—or two-class—classification
+  -It uses the IMDB dataset that contains the text of 50,000 movie reviews from the Internet Movie Database. 
+  -tf.keras, a high-level API to build and train models in TensorFlow
+  - tensorflow_hub, a library for loading trained models from TFHub in a single line of code
+  -We use a pre-trained text embedding model from TensorFlow Hub called google/nnlm-en-dim50/2.
+  -input_shape=[] ---> It's just python notation for creating a tuple that contains only one element.
+  -binary_crossentropy is used cause it is better for dealing with probabilities—it measures the "distance" between probability distributions, 
+                (In our case, between the ground-truth distribution and the predictions.)
+  -verbose 0, 1 or 2 you just say how do you want to 'see' the training progress for each epoch. verbose=0 will show you nothing (silent)
+  
+$ Deep Learning for Coders
+  - importance of labels in a dataset
+  - feedback loops
+  - untar_data is used to downnload and decompress dataset if it hasn't been already
+  
