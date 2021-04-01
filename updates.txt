@@ -44,5 +44,23 @@ $Text classification with TensorFlow Hub: Movie reviews
 $ Deep Learning for Coders
   - importance of labels in a dataset
   - feedback loops
-  - untar_data is used to downnload and decompress dataset if it hasn't been already
+  - untar_data is used to downnload and decompress dataset if it hasn't been 
   
+
+---------------------------------------------------------------------------------------------------------------------------------
+DAY-4 
+
+$REGRESSION
+  -In a regression problem, the aim is to predict the output of a continuous value, like a price or a probability. 
+  -This notebook uses the classic Auto MPG Dataset and builds a model to predict the fuel efficiency of late-1970s and early 1980s automobiles
+  -Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+  -np.set_printoptions(precision=3) ----> Used to mention the precision we want
+  - Pandas is a useful library in data analysis. It can be used to perform data manipulation and analysis.
+  -na_values: This is used to create a string that considers pandas as NaN (Not a Number).
+  -skipinitialspace  - It controls how the space following the delimiter will be interpreted. If True , the initial whitespaces will be removed. It defaults to False.
+  -If there is at least one missing value in that column, the result is True. df. isna(). sum() returns the number of missing values in each column.
+  -Pandas sample() is used to generate a sample random row or column from the function caller data frame
+  -random_state: int value or numpy.random.RandomState, optional. if set to a particular integer, will return same rows as sample in every iteration.
+  -A pairplot plot a pairwise relationships in a dataset.
+  -The NumPy linspace function (sometimes called np. linspace) is a tool in Python for creating numeric sequences
+  -
