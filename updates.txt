@@ -110,8 +110,20 @@ DAY-5
     
     -To reduce the logging noise use the tfdocs.EpochDots which simply prints a . for each epoch, and a full set of metrics every 100 epochs.
     -include callbacks.EarlyStopping to avoid long and unnecessary training times. Note that this callback is set to monitor the val_binary_crossentropy, not the val_loss
-    -
+    
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 6 
+
+$FastAI 
+
+    -https://course.fast.ai/videos/?lesson=2
+    -Learnt about fitting.
+    -How our model cheats.
+    -Classification vs regression
+    -Validation Data 
+    -How to choose Training Data set
 
 
 
