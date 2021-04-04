@@ -126,5 +126,22 @@ $FastAI
     -How to choose Training Data set
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 7
+
+    -If you start overfitting training loss will go down and validation loss will go up
+    -Transfer Learning - focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. 
+    -Fine Tuning-. Fine-tuning deep learning involves using weights of a previous deep learning algorithm for programming another similar deep learning process.
+    -Why Transfer Learning 
+    -Vision techniques for sound
+    -Detecting Virus using CNN
+    -How to find predefined models
+    -State of deep learning
+    -Recommendation vs predictions
+    -P value and how it shouldn't be ideally used
+    -Null hypothesis significance
+
+
 
 
