@@ -143,5 +143,24 @@ DAY 7
     -Null hypothesis significance
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+DAY 8
 
+$ Load Images : https://www.tensorflow.org/tutorials/load_data/images
+  -Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
+  -glob module is used to retrieve files/pathnames matching a specified pattern
+  -The seed() method is used to initialize the random number generator.
+  -astype() function comes very handy when we want to case a particular column data type to another data type.
+  -The RGB channel values are in the [0, 255] range. This is not ideal for a neural network; in general you should seek to make your input values small. Here, we will standardize values to be in the [0, 1] by using a Rescaling layer.
+  -Python next() function is used to fetch next item from the collection.
+  -Python iter() function returns an iterator for the given object.
+  -If you would like to scale pixel values to [-1,1] you can instead write Rescaling(1./127.5, offset=-1)
+  -.cache() keeps the images in memory after they're loaded off disk during the first epoch. This will ensure the dataset does not become a bottleneck while training your model. If your dataset is too large to fit into memory, you can also use this method to create a performant on-disk cache.
+  -.prefetch() overlaps data preprocessing and model execution while training.
+  -buffer_size: A tf. int64 scalar tf. Tensor, representing the maximum number elements that will be buffered when prefetching
+  -Keras Conv2D is a 2D Convolution Layer, this layer creates a convolution kernel that is wind with layers input which helps produce a tensor of outputs.
+  -Maximum pooling, or max pooling, is a pooling operation that calculates the maximum, or largest, value in each patch of each feature map
+  -flatten() function we can flatten a matrix to one dimension in python
+  -The shuffle() method takes a sequence, like a list, and reorganize the order of the items. Note: This method changes the original list, it does not return a new list.
+  
