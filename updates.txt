@@ -164,3 +164,25 @@ $ Load Images : https://www.tensorflow.org/tutorials/load_data/images
   -flatten() function we can flatten a matrix to one dimension in python
   -The shuffle() method takes a sequence, like a list, and reorganize the order of the items. Note: This method changes the original list, it does not return a new list.
   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 9 
+
+$CSV - Comma Separated Values
+  -For any small CSV dataset the simplest way to train a TensorFlow model on it is to load it into memory
+   as a pandas Dataframe or a NumPy array.
+  -Abdalone DataSet = Predict the age of abalone from physical measurements
+  - We use it cause:
+    * The dataset is small.
+    *All the input features are all limited-range floating point values.
+  -If there is only a single input tensor, a keras.Sequential model is sufficient
+  -It's good practice to normalize the inputs to your model.
+  -The experimental.preprocessing layers provide a convenient way to build this normalization into your model.
+  -The layer will precompute the mean and variance of each column, and use these to normalize the data.
+  -Only use your training data to .adapt() preprocessing layers. Do not use your validation or test data.
+  -In case of the different data types and ranges you can't simply stack the features into NumPy array and pass it to a 
+    keras.Sequential model. Each column needs to be handled individually.
+  -To build the preprocessing model, start by building a set of symbolic keras.Input objects,
+     matching the names and data-types of the CSV columns.
+  
+  -
