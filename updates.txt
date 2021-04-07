@@ -185,4 +185,26 @@ $CSV - Comma Separated Values
   -To build the preprocessing model, start by building a set of symbolic keras.Input objects,
      matching the names and data-types of the CSV columns.
   
-  -
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 10
+
+  -If you need more control over the input data pipeline or need to use data that doesn't easily fit into memory: use tf.data.
+  -Itertools is a module in python, it is used to iterate over data structures that can be stepped over using a for-loop.
+  -The main difference between the cache and snapshot methods is that cache files can only be used by the TensorFlow process that created them, 
+    but snapshot files can be read by other processes.
+  -snapshot files are meant for temporary storage of a dataset while in use. This is not a format for long term storage.
+   The file format is considered an internal detail, and not guaranteed between TensorFlow versions.
+  -One place where tf.data can really simplify things is when dealing with collections of files.
+  -When dealing with a bunch of files you can pass a glob-style file_pattern to the experimental.make_csv_dataset function.
+   The order of the files is shuffled each iteration.
+  -Use the num_parallel_reads argument to set how many files are read in parallel and interleaved together.
+  -tf.io.decode_csv - a function for parsing lines of text into a list of CSV column tensors.
+  -tf.data.experimental.CsvDataset - a lower level csv dataset constructor.
+  
+$ NumPy
+  -NPZ is a file format by numpy that provides storage of array data using gzip compression.
+  -RMSprop is a gradient based optimization technique used in training neural networks. ... This normalization balances the step size (momentum), 
+    decreasing the step for large gradients to avoid exploding, and increasing the step for small gradients to avoid vanishing.
+  
