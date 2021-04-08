@@ -207,4 +207,26 @@ $ NumPy
   -NPZ is a file format by numpy that provides storage of array data using gzip compression.
   -RMSprop is a gradient based optimization technique used in training neural networks. ... This normalization balances the step size (momentum), 
     decreasing the step for large gradients to avoid exploding, and increasing the step for small gradients to avoid vanishing.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 11 
+
+$ PANDAS DATAFRAME
+    -DataFrame can be created using a single list or a list of lists. 
+    -DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. 
+    You can think of it like a spreadsheet or SQL table, or a dict of Series objects. It is generally the most commonly used pandas object.
+     -pandas is a software library written for the Python programming language for data manipulation and analysis
+    - Use tf.data.Dataset.from_tensor_slices to read the values from a pandas dataframe.
+    -One of the advantages of using tf.data.Dataset is it allows you to write simple, highly efficient data pipelines. 
+    -The easiest way to preserve the column structure of a pd.DataFrame when used with tf.data is to convert the pd.DataFrame to a dict,
+       and slice that dictionary.
+    -to_string() to print the entire DataFrame.
+    -Load data using tf.data.Dataset
+    -Create and train a model
+    -Passing a dictionary as an input to a model is as easy as creating a matching dictionary of tf.keras.layers.Input layers,
+     applying any pre-processing and stacking them up using the functional api. You can use this as an alternative to feature columns.
+    -
+
+
   
