@@ -226,7 +226,28 @@ $ PANDAS DATAFRAME
     -Create and train a model
     -Passing a dictionary as an input to a model is as easy as creating a matching dictionary of tf.keras.layers.Input layers,
      applying any pre-processing and stacking them up using the functional api. You can use this as an alternative to feature columns.
-    -
+    
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 12 
+
+  -The Python collection module is defined as a container that is used to store collections of data, for example - list, dict, set, and tuple, etc.
+     It was introduced to improve the functionalities of the built-in collection containers. 
+  - tf.data, it's a powerful collection of tools for building input pipelines.
+  - use text_dataset_from_directory utility to create a labeled tf.data.Dataset which will load the data off disk and prepare
+     it into a format suitable for training.
+  - you can train a model by passing a tf.data.Dataset directly to model.fit. 
+  -When using the validation_split and subset arguments, make sure to either specify a random seed, or to pass shuffle=False,
+   so that the validation and training splits have no overlap.
+  -Standardization refers to preprocessing the text, typically to remove punctuation or HTML elements to simplify the dataset.
+  -Tokenization refers to splitting strings into tokens (for example, splitting a sentence into individual words by splitting on whitespace).
+  -Vectorization refers to converting tokens into numbers so they can be fed into a neural network.
+  -The default standardization converts text to lowercase and removes punctuation.
+  -The default tokenizer splits on whitespace.
+  -you will call adapt to fit the state of the preprocessing layer to the dataset. This will cause the model to build an index of strings to integers.
+  -Note: it's important to only use your training data when calling adapt (using the test set would leak information).
+  -  train model -
+
 
 
   
