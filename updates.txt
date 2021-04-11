@@ -278,7 +278,9 @@ DAT 13
   -The tf.strings.length operation has a parameter unit, which indicates how lengths should be computed
   - unit defaults to "BYTE", but it can be set to other values, such as "UTF8_CHAR" or "UTF16_CHAR", 
   to determine the number of Unicode codepoints in each encoded string.
-  -Similarly, the tf.strings.substr operation accepts the "unit" parameter, and uses it to determine what kind of offsets the
+  -Similarly, the tf.strings.substr operation accepts the "unit" p
+  
+  arameter, and uses it to determine what kind of offsets the
    "pos" and "len" paremeters contain
   -The tf.strings.unicode_split operation splits unicode strings into substrings of individual characters:
   -Each Unicode code point belongs to a single collection of codepoints known as a script . A character's script is helpful in determining
@@ -287,4 +289,19 @@ DAT 13
   -TensorFlow provides the tf.strings.unicode_script operation to determine which script a given codepoint uses. The script codes are int32 values
    corresponding to International Components for Unicode (ICU) UScriptCode values
    -Segmentation is the task of splitting text into word-like units. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+DAY 14
+
+-DataLoaders:DataLoader returns the batch as a list with the batch as the only entry.
+-A residual neural network (ResNet) is an artificial neural network (ANN) of a kind that builds on constructs known
+ from pyramidal cells in the cerebral cortex.
+ Residual neural networks do this by utilizing skip connections, or shortcuts to jump over some layers.
+-: “Null hypothesis significance testing (NHST) is a method of statistical inference by which an observation is tested 
+against a hypothesis of no effect or no relationship.”
+-bing image api
+-DataBlock Api
    
