@@ -304,4 +304,16 @@ DAY 14
 against a hypothesis of no effect or no relationship.”
 -bing image api
 -DataBlock Api
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 15
    
+-A tensor is a generalization of vectors and matrices to potentially higher dimensions. 
+  Internally, TensorFlow represents tensors as n-dimensional arrays of base datatypes.
+-They are the main objects that are passed around and manipluated throughout the program. 
+-Each tensor represents a partialy defined computation that will eventually produce a value. TensorFlow programs work by building a graph of Tensor objects that details how tensors are related.
+-Running different parts of the graph allow results to be generated.
+-Each tensor has a data type and a shape.
+-Data Types Include: float32, int32, string and others.
+-Just like vectors and matrices tensors can have operations applied to them like addition, subtraction, dot product, cross product etc.
