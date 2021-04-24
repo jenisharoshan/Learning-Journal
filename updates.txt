@@ -316,4 +316,26 @@ DAY 15
 -Running different parts of the graph allow results to be generated.
 -Each tensor has a data type and a shape.
 -Data Types Include: float32, int32, string and others.
--Just like vectors and matrices tensors can have operations applied to them like addition, subtraction, dot product, cross product etc.
+-Just like vectors and matrices tensors can have operations applied to them like addition, subtraction, dot product, cross product etc.st
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+DAY 16
+
+-Array/List in Tf has rank atleast 1 because it can store more than one value
+-Eg tensor of rank 1:
+  rank1_tensor = tf.Variable(["Test"], tf.string) 
+-Eg tensor of rank 2:
+  rank2_tensor = tf.Variable([["test", "ok"], ["test", "yes"]], tf.string)
+-Deepest level of nested list = Rank of tensor
+-When you run it you'll get it as numpy=1 (IF RANK ONE TENSOR)
+-The shape of a tensor is simply the number of elements that exist in each dimension.
+-TensorFlow will try to determine the shape of a tensor but sometimes it may be unknown.
+- there are diffent types of tensors. These are the most used 
+-Variable
+ Constant
+ Placeholder
+ SparseTensor
+-With the execption of Variable all these tensors are immuttable, meaning their value may not change during execution.
