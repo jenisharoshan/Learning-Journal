@@ -339,3 +339,22 @@ DAY 16
  Placeholder
  SparseTensor
 -With the execption of Variable all these tensors are immuttable, meaning their value may not change during execution.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+DAY 17
+
+-In the early stages, TensorFlow was intimidating, to say the least. Developers found it incredibly difficult — impossible even — to code properly.
+   But all this changed with the introduction of TensorFlow Eager. 
+- when you combine TensorFlow with Keras API, you are left with one outcome – simple and efficient neural network construction.
+-Keras is more or less concerned with simple prototyping and user-friendliness. 
+  This was something that was sorely missing in the old versions of TensorFlow.
+-these issues decreased, culminating in tf.keras. 
+  This combination has proven a boon for developers who prefer to build the neural networks layer by layer and adopt an object-oriented approach
+-TensorFlow isn’t just for Pythonistas. The framework supports multiple languages, ranging from Swift to R to JavaScript
+-Using TensorFlow.js, developers now have the unique opportunity to train and execute models directly in the browser
+-tf.data namespace allows you to perform input processing in TensorFlow more efficiently and expressively.
+-Because tf.data provides access to data pipelines that are easy to use, flexible, fast, and above all, synchronized with the right training.
+-Keras + TensorFlow = easier neural network construction
+-
