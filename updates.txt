@@ -357,4 +357,18 @@ DAY 17
 -tf.data namespace allows you to perform input processing in TensorFlow more efficiently and expressively.
 -Because tf.data provides access to data pipelines that are easy to use, flexible, fast, and above all, synchronized with the right training.
 -Keras + TensorFlow = easier neural network construction
--
+
+-----------------------------------------------------------------------------------------------------------
+
+
+DAY 18
+
+-Linear regression is one of the most basic forms of machine learning and is used to predict numeric value
+- https://www.tensorflow.org/tutorials/estimator/linear
+-Linear regression follows a very simple concept. If data points are related linearly, we can generate a line of best fit for these points and use it to predict future values.
+-"Line of best fit refers to a line through a scatter plot of data points that best expresses the relationship between those points." 
+(https://www.investopedia.com/terms/l/line-of-best-fit.asp)
+-The pd.read_csv() method will return to us a new pandas dataframe. You can think of a dataframe like a table. 
+  In fact, we can actually have a look at the table representation.
+-Developed a Linear Regression model using Titanic Dataset
+-Used  linear estimator to utilize the linear regression algorithm.
