@@ -372,3 +372,27 @@ DAY 18
   In fact, we can actually have a look at the table representation.
 -Developed a Linear Regression model using Titanic Dataset
 -Used  linear estimator to utilize the linear regression algorithm.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+DAY 19
+
+-Fastai library is a collections of best techniques to achieve state-of-the-art result.
+- For structured data analysis, scikit-learn has a lot of great code.
+ So what fastai does is to help us get things into scikit-learn and then interpret things out from scikit-learn.
+-Creating a validation set is the most important thing you need to do when you are doing a machine learning project.
+-n_estimators=1 — create a forest with just one tre
+-max_depth=3 — to make it a small tree
+-bootstrap=False — random forest randomizes bunch of things, we want to turn that off by this parameter
+-A tree consists of a sequence of binary decisions.
+-The first line indicates the binary split criteria
+-samples at the root is 20,000 since that is what we specified when splitting the data.
+-Darker color indicates higher value
+-value is average of the log of price
+-Building a random forest from scratch:
+  -We need to pick a variable and the value to split on such that the two groups are as different to each other as possible
+  -For each variable, for each possible value of the possible value of that variable see whether it is better.
+  -How to determine if it is better? Take weighted average of two new nodes
