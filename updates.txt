@@ -463,3 +463,34 @@ Step 2: Assign all the data points to the centroids by distance. The closest cen
 Step 3: Average all the points belonging to each centroid to find the middle of those clusters (center of mass). Place the corresponding centroids into that position.
 Step 4: Reassign every point once again to the closest centroid.
 Step 5: Repeat steps 3-4 until no point changes which centroid it belongs to.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 22
+
+-Hidden Markov Models
+-The Hidden Markov Model is a finite set of states, each of which is associated with a (generally multidimensional) probability distribution [].
+ Transitions among the states are governed by a set of probabilities called transition probabilities." 
+ (http://jedlik.phy.bme.hu/~gerjanos/HMM/node4.html)
+
+-A hidden markov model works with probabilities to predict future events or states.
+- Learnt how to create a hidden markov model that can predict the weather.
+- https://www.tensorflow.org/probability/api_docs/python/tfp/distributions/HiddenMarkovModel
+- For a markov model we are only interested in probability distributions that have to do with states.
+-States: In each markov model we have a finite set of states. These states could be something like "warm" and "cold" or "high" and "low" or even "red", "green" and "blue". 
+These states are "hidden" within the model, which means we do not direcly observe them.
+-Observations: Each state has a particular outcome or observation associated with it based on a probability distribution.
+ An example of this is the following: On a hot day Tim has a 80% chance of being happy and a 20% chance of being sad.
+-Transitions: Each state will have a probability defining the likelyhood of transitioning to a different state.
+ An example is the following: a cold day has a 30% chance of being followed by a hot day and a 70% chance of being follwed by another cold day.
+-To create a hidden markov model we need.
+
+  +States
+  +Observation Distribution
+  +Transition Distribution
+-Due to a version mismatch with tensorflow v2 and tensorflow_probability we need to install the most recent version of tensorflow_probability (see below).
+-(https://www.tensorflow.org/probability/api_docs/python/tfp/distributions/HiddenMarkovModel).
+- standard deviation it can be put simply as the range of expected values
+-Modeled a simple weather system and tried to predict the temperature on each day given the following information.
