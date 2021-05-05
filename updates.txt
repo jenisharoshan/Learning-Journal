@@ -495,6 +495,7 @@ These states are "hidden" within the model, which means we do not direcly observ
 - standard deviation it can be put simply as the range of expected values
 -Modeled a simple weather system and tried to predict the temperature on each day given the following information.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 DAY 23
 
@@ -510,3 +511,17 @@ DAY 23
   -Under the hood, the data is first divided into batches so that it can be ingested. ...
   -The model then gets trained incrementally.
   -Display the accuracy for a specific number of timesteps.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 24
+
+-Dense Neural Networks
+-Neural Networks,Hidden Layers
+-Use of bias
+-Bias aren't connected to each other
+-Use of activation function -
+     For eg if we want output value to be withing 0,1 but we might get values like 900 it's advisable to use activation function to complicate our neural network
+-relu - r ReLU activation function is an activation function defined as the positive part of its argument:
+-sigmoid function - maps the whole real range of z into [0,1] in the g(z).
