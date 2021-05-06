@@ -525,3 +525,19 @@ DAY 24
      For eg if we want output value to be withing 0,1 but we might get values like 900 it's advisable to use activation function to complicate our neural network
 -relu - r ReLU activation function is an activation function defined as the positive part of its argument:
 -sigmoid function - maps the whole real range of z into [0,1] in the g(z).
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAY 25
+
+-Loss Function 
+-While training We compare what value should be with the output we get to minimize loss function
+-How backtracking works in Neural Network
+-"Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation.
+
+Use Keras if you need a deep learning library that:
+
+Allows for easy and fast prototyping (through user friendliness, modularity, and extensibility).
+Supports both convolutional networks and recurrent networks, as well as combinations of the two.
+Runs seamlessly on CPU and GPU."
+Keras is a very powerful module that allows us to avoid having to build neural networks from scratch. It also hides a lot of mathematical complexity (that otherwise we would have to implement) inside of helpful packages, modules and methods.
